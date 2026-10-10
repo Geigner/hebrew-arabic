@@ -501,7 +501,7 @@
                             </div>
                             <button id="btn-${docSnap.id}" class="speak-btn" onclick="speakText('${escapeHtml(textToSpeak).replace(/'/g, "\\'")}', '${speakLang}', 'btn-${docSnap.id}')" title="השמע 🔊">🔊</button>
                         </div>
-                        <span class="meta">${formatTime(data.timestamp)} (לחץ כפול להעתקה)</span>
+                        <span class="meta">${formatTime(data.timestamp)}</span>
                     `;
                     chatWindow.appendChild(msgDiv);
                 });
